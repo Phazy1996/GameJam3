@@ -8,8 +8,7 @@ public class ControllerTest : MonoBehaviour {
 	void Start () {
         xinput = GetComponent<XInput>();
 	}
-	
-	// Update is called once per frame
+
 	void Update () {
         print(xinput.LeftStickPos);
 	}
