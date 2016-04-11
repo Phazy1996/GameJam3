@@ -13,12 +13,12 @@ public class XInput : MonoBehaviour {
     GamePadState last;
 
     // Only true this frame.
-    bool xButtonDown, bButtonDown, yButtonDown, bButtonDown = false;
+    bool xButtonDown, bButtonDown, yButtonDown, aButtonDown = false;
     bool startButtonDown, backButtonDown = false;
     bool leftstickDown, rightStickDown = false;
 
     // True when button is down.
-    bool xButton, bButton, yButton, bButton = false;
+    bool xButton, bButton, yButton, aButton = false;
     bool startButton, backButton = false;
     bool leftstick, rightStick = false;
 
