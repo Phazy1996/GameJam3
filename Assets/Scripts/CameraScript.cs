@@ -2,10 +2,14 @@
 using System.Collections;
 
 public class CameraScript : MonoBehaviour {
-	public Transform target;
-	public float distance = 3.0f;
-	public float height = 3.0f;
-	public float damping = 5.0f;
+	[SerializeField]
+	private Transform target;
+	[SerializeField]
+	private float distance = 3.0f;
+	[SerializeField]
+	private float height = 3.0f;
+	[SerializeField]
+	private float damping = 5.0f;
 
 	
 	void Update () {
