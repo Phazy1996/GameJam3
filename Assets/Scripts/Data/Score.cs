@@ -21,6 +21,6 @@ public class Score : MonoBehaviour {
     }
 
     public string Scoreboard() {
-        return team1 + " : " + team2;
+        return team1 + " - " + team2;
     }
 }

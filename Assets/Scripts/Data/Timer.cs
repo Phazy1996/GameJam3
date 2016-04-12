@@ -5,14 +5,10 @@ using System.Collections.Generic;
 public class Timer : MonoBehaviour {
 
     [SerializeField]
-    int hours, minutes, seconds, milleseconds = 0;
+    int minutes, seconds, milleseconds = 0;
 
     [SerializeField]
     bool running = false;
-
-    public int Hours {
-        get { return hours; }
-    }
 
     public int Minutes {
         get { return minutes; }
@@ -35,10 +31,6 @@ public class Timer : MonoBehaviour {
                 seconds = 0;
                 minutes++;
             }
-            if (minutes >= 60) {
-                minutes = 0;
-                hours++;
-            }
         }
     }
 
@@ -49,8 +41,6 @@ public class Timer : MonoBehaviour {
 
     public void Start() {
         running = true;
-
-        print(CurrentTimeString());
     }
 
     public void Pause() {
@@ -59,7 +49,7 @@ public class Timer : MonoBehaviour {
 
     public void Stop() {
         running = false;
-        hours = minutes = seconds = 0;
+        minutes = seconds = milleseconds = 0;
     }
 
     public void Toggle() {
@@ -72,25 +62,25 @@ public class Timer : MonoBehaviour {
     public void Save() {
         List<int> time = new List<int>();
 
-        time[0] = hours; time[1] = minutes; time[2] = seconds;
+        time[0] = minutes; time[1] = seconds; time[2] = milleseconds;
 
         savedTimes.Add(time);
     }
 
     public List<int> CurrentTimeList() {
-        return new List<int>(){hours, minutes, seconds};
+        return new List<int>(){minutes, seconds, milleseconds};
     }
 
     public string CurrentTimeString() {
-        string Hours, Minutes, Seconds;
+        string Minutes, Seconds, Milleseconds;
 
         string time = "00:00:00";
 
-        Hours = hours.ToString("D" + 2.ToString());
         Minutes = minutes.ToString("D" + 2.ToString());
         Seconds = seconds.ToString("D" + 2.ToString());
+        Milleseconds = milleseconds.ToString("D" + 2.ToString());
 
-        time = Hours + ":" + Minutes + ":" + Seconds;
+        time = Minutes + ":" + Seconds + ":" + Milleseconds;
 
         return time;
     }
