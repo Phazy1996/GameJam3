@@ -9,6 +9,11 @@ public class PlayerMovement : MonoBehaviour {
     [SerializeField]
     float maxWalkSpeed, jumpHeight = 5;
 
+    public float MaxWalkSpeed {
+        get { return maxWalkSpeed; }
+        set { maxWalkSpeed = value; }
+    }
+
     [SerializeField, Tooltip("Leave this be unless you know what you're doing with it.")]
     float maxVel = 10;
 

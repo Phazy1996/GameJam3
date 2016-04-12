@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Score : MonoBehaviour {
 
+    [SerializeField]
     int team1, team2 = 0;
 
     public void Scored(int team, int score) {
