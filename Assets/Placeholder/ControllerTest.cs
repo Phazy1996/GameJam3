@@ -11,5 +11,6 @@ public class ControllerTest : MonoBehaviour {
 
 	void Update () {
         print(xinput.LeftStickPos);
+        print(xinput.AButtonDown);
 	}
 }
