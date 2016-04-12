@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using XInputDotNetPure;
-
+#pragma warning disable 0414
 public class XInput : MonoBehaviour {
 
     [SerializeField, Tooltip("What player am I?"), Range(1, 4)]
@@ -209,3 +209,4 @@ public class XInput : MonoBehaviour {
         GamePad.SetVibration(playerIndex, 0, 0);
     }
 }
+#pragma warning restore 0414
