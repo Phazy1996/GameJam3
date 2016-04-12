@@ -25,8 +25,8 @@ public class PlayerLink : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        team1[2];
-        team2[2];
+       // team1[2];
+      //  team2[2];
 	}
 	
 	// Update is called once per frame

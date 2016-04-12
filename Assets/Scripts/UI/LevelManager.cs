@@ -6,7 +6,7 @@ public class LevelManager : MonoBehaviour {
 
     // UI elements to enable / disable for later use.
     public GameObject CreditsUI;
-
+	// MainMenu Ui
     // load level 1
     public void StartLevel(int Scene)
     {
@@ -25,7 +25,12 @@ public class LevelManager : MonoBehaviour {
             CreditsUI.SetActive(false);
         }
     }
-
+	// quit game
+	public void QuitGame()
+	{
+		Application.Quit();
+	}
+	//End Screen
     // Restart the game ( load scene 1 )
     public void RestartGame()
     {
@@ -36,9 +41,8 @@ public class LevelManager : MonoBehaviour {
     {
         SceneManager.LoadScene(0);
     }
-    // quit game
-    public void QuitGame()
-    {
-        Application.Quit();
-    }
+	public void EndScreen()
+	{
+		SceneManager.LoadScene(2);
+	}
 }
