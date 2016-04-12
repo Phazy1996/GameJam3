@@ -12,6 +12,9 @@ public class CamLock : MonoBehaviour {
 	[SerializeField]
 	private Transform player4;
 
+
+
+
 	void Awake (){
 		
 	}
