@@ -31,6 +31,7 @@ public class DeathZone : MonoBehaviour {
 
 		else if (viewPos3.x < 0.0F || viewPos4.x < 0.0F){
 			Debug.Log("player 3 or 4 is out of cam");
+			Dead();
 		}
 	}
 
