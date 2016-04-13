@@ -75,15 +75,20 @@ public class XInput : MonoBehaviour {
     public float LeftShoulderPos { get { return leftShoulderPos; } }
     public float RightShoulderPos { get { return RightShoulderPos; } }
 
+    private float leftMotorVibration = 0;
+    private float rightMotorVibration = 0;
+
     public float LeftMotorVibration {
         set {
-            SetVib(value, 0);
+            SetVib(value, rightMotorVibration);
+            leftMotorVibration = value;
         }
     }
 
     public float RightMotorVibration {
         set {
-            SetVib(0, value);
+            SetVib(leftMotorVibration, value);
+            rightMotorVibration = value;
         }
     }
 
@@ -109,6 +114,12 @@ public class XInput : MonoBehaviour {
         }
 
         currentState = GamePad.GetState(playerIndex);
+
+        SetVib(0);
+    }
+
+    void OnApplicationQuit() {
+        SetVib(0);
     }
 
     void Update() {

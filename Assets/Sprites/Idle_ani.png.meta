@@ -1,0 +1,588 @@
+fileFormatVersion: 2
+guid: d649809d3db5eb242a188e147fdda8dc
+timeCreated: 1460543235
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Idle_ani_0
+    21300002: Idle_ani_1
+    21300004: Idle_ani_2
+    21300006: Idle_ani_3
+    21300008: Idle_ani_4
+    21300010: Idle_ani_5
+    21300012: Idle_ani_6
+    21300014: Idle_ani_7
+    21300016: Idle_ani_8
+    21300018: Idle_ani_9
+    21300020: Idle_ani_10
+    21300022: Idle_ani_11
+    21300024: Idle_ani_12
+    21300026: Idle_ani_13
+    21300028: Idle_ani_14
+    21300030: Idle_ani_15
+    21300032: Idle_ani_16
+    21300034: Idle_ani_17
+    21300036: Idle_ani_18
+    21300038: Idle_ani_19
+    21300040: Idle_ani_20
+    21300042: Idle_ani_21
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Idle_ani_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3663
+        width: 451
+        height: 424
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 213}
+        - {x: -113, y: 101}
+        - {x: -113, y: 0}
+        - {x: 79, y: 0}
+        - {x: 113, y: 142}
+        - {x: 113, y: 176}
+        - {x: 84, y: 213}
+    - name: Idle_ani_1
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 3664
+        width: 453
+        height: 423
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 113, y: 211.75}
+        - {x: 36, y: 211.75}
+        - {x: -113, y: 124.75}
+        - {x: -113, y: 30.75}
+        - {x: -111, y: 28.75}
+        - {x: -98, y: 28.75}
+        - {x: -85, y: 45.75}
+        - {x: -79, y: 61.75}
+        - {x: -78, y: 38.75}
+        - {x: -73, y: 2.75}
+        - {x: -40, y: 7.75}
+        - {x: -30, y: 15.75}
+        - {x: 28, y: -0.25}
+        - {x: 67, y: -0.25}
+        - {x: 69, y: 4.75}
+        - {x: 114, y: 118.75}
+        - {x: 114, y: 205.75}
+    - name: Idle_ani_2
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 3665
+        width: 450
+        height: 422
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 59.5, y: 212}
+        - {x: -50.5, y: 140}
+        - {x: -106.5, y: 92}
+        - {x: -112.5, y: 67}
+        - {x: -112.5, y: 30}
+        - {x: -100.5, y: 27}
+        - {x: -89.5, y: 39}
+        - {x: -79.5, y: 58}
+        - {x: -77.5, y: 69}
+        - {x: -75.5, y: 35}
+        - {x: -71.5, y: 6}
+        - {x: -50.5, y: 5}
+        - {x: -29.5, y: 12}
+        - {x: 9.5, y: 0}
+        - {x: 77.5, y: 0}
+        - {x: 113.5, y: 129}
+        - {x: 113.5, y: 180}
+        - {x: 90.5, y: 212}
+    - name: Idle_ani_3
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 3667
+        width: 452
+        height: 422
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 81, y: 212}
+        - {x: 66, y: 212}
+        - {x: -94, y: 108}
+        - {x: -113, y: 47}
+        - {x: -113, y: 16}
+        - {x: -109, y: 0}
+        - {x: 98, y: 0}
+        - {x: 114, y: 91}
+        - {x: 114, y: 177}
+        - {x: 105, y: 202}
+    - name: Idle_ani_4
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3237
+        width: 449
+        height: 420
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51.5, y: 211}
+        - {x: -92.5, y: 106}
+        - {x: -112.5, y: 73}
+        - {x: -112.5, y: 0}
+        - {x: 79.5, y: 0}
+        - {x: 112.5, y: 144}
+        - {x: 112.5, y: 182}
+        - {x: 85.5, y: 211}
+    - name: Idle_ani_5
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 3237
+        width: 448
+        height: 420
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: 211}
+        - {x: -106, y: 96}
+        - {x: -112, y: 81}
+        - {x: -112, y: 18}
+        - {x: -72, y: 6}
+        - {x: -51, y: 5}
+        - {x: -30, y: 12}
+        - {x: 10, y: 0}
+        - {x: 74, y: 0}
+        - {x: 113, y: 123}
+        - {x: 113, y: 180}
+        - {x: 87, y: 211}
+    - name: Idle_ani_6
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 3239
+        width: 448
+        height: 418
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53, y: 210}
+        - {x: -87, y: 114}
+        - {x: -112, y: 47}
+        - {x: -112, y: 26}
+        - {x: -101, y: 18}
+        - {x: -72, y: 4}
+        - {x: -56, y: 0}
+        - {x: 88, y: 0}
+        - {x: 113, y: 123}
+        - {x: 113, y: 187}
+        - {x: 97, y: 210}
+    - name: Idle_ani_7
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 3239
+        width: 449
+        height: 418
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -112, y: 81}
+        - {x: -112, y: 30}
+        - {x: -103, y: 23}
+        - {x: -75, y: 53}
+        - {x: -76, y: 35}
+        - {x: -72, y: 6}
+        - {x: -51, y: 5}
+        - {x: -30, y: 12}
+        - {x: 10, y: 0}
+        - {x: 113, y: 0}
+        - {x: 113, y: 210}
+        - {x: 53, y: 210}
+        - {x: -111, y: 100}
+    - name: Idle_ani_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2813
+        width: 449
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 82.5, y: 210.25}
+        - {x: 51.5, y: 210.25}
+        - {x: -88.5, y: 118.25}
+        - {x: -112.5, y: 59.25}
+        - {x: -112.5, y: 27.25}
+        - {x: -104.5, y: 26.25}
+        - {x: -86.5, y: 41.25}
+        - {x: -80.5, y: 56.25}
+        - {x: -77.5, y: 71.25}
+        - {x: -76.5, y: 78.25}
+        - {x: -76.5, y: 45.25}
+        - {x: -73.5, y: 10.25}
+        - {x: -69.5, y: 7.25}
+        - {x: -51.5, y: 5.25}
+        - {x: -34.5, y: 16.25}
+        - {x: 31.5, y: 0.25}
+        - {x: 66.5, y: 0.25}
+        - {x: 74.5, y: 4.25}
+        - {x: 112.5, y: 137.25}
+        - {x: 112.5, y: 182.25}
+    - name: Idle_ani_9
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 2815
+        width: 448
+        height: 414
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -112, y: 53}
+        - {x: -112, y: 28}
+        - {x: -108, y: 28}
+        - {x: -98, y: 29}
+        - {x: -81, y: 50}
+        - {x: -78, y: 58}
+        - {x: -76, y: 77}
+        - {x: -75, y: 26}
+        - {x: -72, y: 4}
+        - {x: -56, y: 0}
+        - {x: 113, y: 0}
+        - {x: 113, y: 208}
+        - {x: 50, y: 208}
+        - {x: -91, y: 105}
+    - name: Idle_ani_10
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 2815
+        width: 451
+        height: 414
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 89.5, y: 208}
+        - {x: 49.5, y: 208}
+        - {x: -86.5, y: 115}
+        - {x: -112.5, y: 50}
+        - {x: -112.5, y: 25}
+        - {x: -74.5, y: 0}
+        - {x: -66.5, y: 0}
+        - {x: -28.5, y: 14}
+        - {x: 11.5, y: 0}
+        - {x: 65.5, y: 0}
+        - {x: 69.5, y: 5}
+        - {x: 113.5, y: 109}
+        - {x: 113.5, y: 191}
+    - name: Idle_ani_11
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 2815
+        width: 446
+        height: 414
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 208}
+        - {x: -111.5, y: 97}
+        - {x: -111.5, y: 13}
+        - {x: -85.5, y: 3}
+        - {x: -48.5, y: 1}
+        - {x: -32.5, y: 0}
+        - {x: 82.5, y: 0}
+        - {x: 112.5, y: 95}
+        - {x: 112.5, y: 199}
+        - {x: 96.5, y: 208}
+    - name: Idle_ani_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2395
+        width: 446
+        height: 412
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.5, y: 207}
+        - {x: -97.5, y: 125}
+        - {x: -111.5, y: 105}
+        - {x: -111.5, y: 0}
+        - {x: 111.5, y: 0}
+        - {x: 112.5, y: 10}
+        - {x: 112.5, y: 199}
+        - {x: 104.5, y: 207}
+    - name: Idle_ani_13
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 2392
+        width: 446
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 69.5, y: 208}
+        - {x: 62.5, y: 205}
+        - {x: -84.5, y: 114}
+        - {x: -111.5, y: 55}
+        - {x: -111.5, y: 17}
+        - {x: -96.5, y: 0}
+        - {x: -52.5, y: 0}
+        - {x: -30.5, y: 10}
+        - {x: 15.5, y: 0}
+        - {x: 77.5, y: 0}
+        - {x: 112.5, y: 116}
+        - {x: 112.5, y: 174}
+        - {x: 84.5, y: 208}
+    - name: Idle_ani_14
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 2391
+        width: 446
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 80.5, y: 209.25}
+        - {x: 62.5, y: 209.25}
+        - {x: -76.5, y: 116.25}
+        - {x: -86.5, y: 105.25}
+        - {x: -96.5, y: 87.25}
+        - {x: -111.5, y: 45.25}
+        - {x: -111.5, y: 30.25}
+        - {x: -100.5, y: 27.25}
+        - {x: -89.5, y: 39.25}
+        - {x: -78.5, y: 57.25}
+        - {x: -73.5, y: 10.25}
+        - {x: -69.5, y: 7.25}
+        - {x: -51.5, y: 5.25}
+        - {x: -34.5, y: 16.25}
+        - {x: -37.5, y: 27.25}
+        - {x: 27.5, y: 0.25}
+        - {x: 69.5, y: 0.25}
+        - {x: 74.5, y: 5.25}
+        - {x: 112.5, y: 154.25}
+        - {x: 112.5, y: 172.25}
+    - name: Idle_ani_15
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 2391
+        width: 448
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: 209.25}
+        - {x: -110, y: 115.25}
+        - {x: -112, y: 95.25}
+        - {x: -112, y: 7.25}
+        - {x: -88, y: 0.25}
+        - {x: 83, y: 0.25}
+        - {x: 113, y: 114.25}
+        - {x: 113, y: 194.25}
+        - {x: 102, y: 209.25}
+    - name: Idle_ani_16
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1967
+        width: 446
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 67.5, y: 209}
+        - {x: 45.5, y: 193}
+        - {x: -83.5, y: 130}
+        - {x: -111.5, y: 69}
+        - {x: -111.5, y: 5}
+        - {x: -107.5, y: 0}
+        - {x: 97.5, y: 0}
+        - {x: 112.5, y: 106}
+        - {x: 112.5, y: 175}
+        - {x: 90.5, y: 209}
+    - name: Idle_ani_17
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1965
+        width: 449
+        height: 418
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53, y: 210}
+        - {x: -90, y: 106}
+        - {x: -112, y: 46}
+        - {x: -112, y: 32}
+        - {x: -101, y: 29}
+        - {x: -96, y: 32}
+        - {x: -82, y: 51}
+        - {x: -77, y: 67}
+        - {x: -76, y: 35}
+        - {x: -106, y: 0}
+        - {x: 113, y: 0}
+        - {x: 113, y: 187}
+        - {x: 98, y: 210}
+    - name: Idle_ani_18
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 1965
+        width: 446
+        height: 418
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47.5, y: 210}
+        - {x: -96.5, y: 112}
+        - {x: -111.5, y: 54}
+        - {x: -111.5, y: 23}
+        - {x: -98.5, y: 4}
+        - {x: -80.5, y: 0}
+        - {x: 80.5, y: 0}
+        - {x: 112.5, y: 138}
+        - {x: 112.5, y: 177}
+        - {x: 97.5, y: 210}
+    - name: Idle_ani_19
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1959
+        width: 446
+        height: 424
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48.5, y: 213}
+        - {x: -111.5, y: 106}
+        - {x: -111.5, y: 1}
+        - {x: 108.5, y: 1}
+        - {x: 112.5, y: 32}
+        - {x: 112.5, y: 193}
+        - {x: 99.5, y: 213}
+    - name: Idle_ani_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1535
+        width: 448
+        height: 425
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 87, y: 213.25}
+        - {x: 68, y: 213.25}
+        - {x: 48, y: 189.25}
+        - {x: -83, y: 112.25}
+        - {x: -93, y: 98.25}
+        - {x: -112, y: 46.25}
+        - {x: -112, y: 33.25}
+        - {x: -104, y: 29.25}
+        - {x: -72, y: 1.25}
+        - {x: -24, y: 11.25}
+        - {x: 19, y: 0.25}
+        - {x: 66, y: 0.25}
+        - {x: 70, y: 5.25}
+        - {x: 113, y: 116.25}
+        - {x: 113, y: 203.25}
+    - name: Idle_ani_21
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1535
+        width: 448
+        height: 422
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -112, y: 82}
+        - {x: -112, y: 0}
+        - {x: 69, y: 0}
+        - {x: 113, y: 143}
+        - {x: 113, y: 196}
+        - {x: 104, y: 212}
+        - {x: 50, y: 212}
+        - {x: -6, y: 177}
+        - {x: -108, y: 95}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

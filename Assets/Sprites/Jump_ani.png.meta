@@ -1,0 +1,826 @@
+fileFormatVersion: 2
+guid: ca2c4ce3b5643ab4986b0c82b477ee5a
+timeCreated: 1460547306
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Jump_ani_0
+    21300002: Jump_ani_1
+    21300004: Jump_ani_2
+    21300006: Jump_ani_3
+    21300008: Jump_ani_4
+    21300010: Jump_ani_5
+    21300012: Jump_ani_6
+    21300014: Jump_ani_7
+    21300016: Jump_ani_8
+    21300018: Jump_ani_9
+    21300020: Jump_ani_10
+    21300022: Jump_ani_11
+    21300024: Jump_ani_12
+    21300026: Jump_ani_13
+    21300028: Jump_ani_14
+    21300030: Jump_ani_15
+    21300032: Jump_ani_16
+    21300034: Jump_ani_17
+    21300036: Jump_ani_18
+    21300038: Jump_ani_19
+    21300040: Jump_ani_20
+    21300042: Jump_ani_21
+    21300044: Jump_ani_22
+    21300046: Jump_ani_23
+    21300048: Jump_ani_24
+    21300050: Jump_ani_25
+    21300052: Jump_ani_26
+    21300054: Jump_ani_27
+    21300056: Jump_ani_28
+    21300058: Jump_ani_29
+    21300060: Jump_ani_30
+    21300062: Jump_ani_31
+    21300064: Jump_ani_32
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Jump_ani_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3672
+        width: 444
+        height: 415
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60, y: 207.75}
+        - {x: -111, y: 102.75}
+        - {x: -111, y: 30.75}
+        - {x: -108, y: 29.75}
+        - {x: -95, y: 31.75}
+        - {x: -87, y: 41.75}
+        - {x: -79, y: 57.75}
+        - {x: -59, y: 6.75}
+        - {x: -55, y: 1.75}
+        - {x: -36, y: 1.75}
+        - {x: -32, y: 5.75}
+        - {x: -30, y: 16.75}
+        - {x: 21, y: -0.25}
+        - {x: 95, y: -0.25}
+        - {x: 112, y: 104.75}
+        - {x: 112, y: 179.75}
+        - {x: 94, y: 207.75}
+    - name: Jump_ani_1
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 3672
+        width: 449
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 92.5, y: 208}
+        - {x: -3.5, y: 208}
+        - {x: -111.5, y: 98}
+        - {x: -111.5, y: 3}
+        - {x: -104.5, y: 0}
+        - {x: 85.5, y: 0}
+        - {x: 112.5, y: 99}
+        - {x: 112.5, y: 183}
+    - name: Jump_ani_2
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 3672
+        width: 448
+        height: 416
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 82, y: 208}
+        - {x: -26, y: 208}
+        - {x: -112, y: 82}
+        - {x: -112, y: 0}
+        - {x: -24, y: 0}
+        - {x: -19, y: 2}
+        - {x: -2, y: 0}
+        - {x: 84, y: 0}
+        - {x: 112, y: 135}
+        - {x: 112, y: 178}
+    - name: Jump_ani_3
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 3671
+        width: 444
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58, y: 209.25}
+        - {x: -102, y: 104.25}
+        - {x: -111, y: 85.25}
+        - {x: -111, y: 3.25}
+        - {x: -106, y: 0.25}
+        - {x: 83, y: 0.25}
+        - {x: 92, y: 2.25}
+        - {x: 112, y: 149.25}
+        - {x: 112, y: 175.25}
+        - {x: 93, y: 209.25}
+    - name: Jump_ani_4
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 3669
+        width: 446
+        height: 418
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 81.5, y: 210}
+        - {x: 68.5, y: 210}
+        - {x: 51.5, y: 190}
+        - {x: -81.5, y: 108}
+        - {x: -86.5, y: 95}
+        - {x: -91.5, y: 83}
+        - {x: -111.5, y: 44}
+        - {x: -111.5, y: 25}
+        - {x: -109.5, y: 25}
+        - {x: -94.5, y: 27}
+        - {x: -78.5, y: 46}
+        - {x: -52.5, y: 0}
+        - {x: 100.5, y: 0}
+        - {x: 112.5, y: 110}
+        - {x: 112.5, y: 178}
+    - name: Jump_ani_5
+      rect:
+        serializedVersion: 2
+        x: 2277
+        y: 3667
+        width: 446
+        height: 420
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 81.5, y: 55}
+        - {x: 112.5, y: 117}
+        - {x: 112.5, y: 205}
+        - {x: 106.5, y: 211}
+        - {x: 45.5, y: 211}
+        - {x: -81.5, y: 109}
+        - {x: -111.5, y: 73}
+        - {x: -111.5, y: 0}
+        - {x: 64.5, y: 0}
+        - {x: 70.5, y: 8}
+        - {x: 69.5, y: 22}
+    - name: Jump_ani_6
+      rect:
+        serializedVersion: 2
+        x: 2735
+        y: 3664
+        width: 449
+        height: 421
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: 210.75}
+        - {x: -104, y: 104.75}
+        - {x: -112, y: 63.75}
+        - {x: -112, y: -0.25}
+        - {x: 93, y: -0.25}
+        - {x: 113, y: 55.75}
+        - {x: 113, y: 210.75}
+    - name: Jump_ani_7
+      rect:
+        serializedVersion: 2
+        x: 3193
+        y: 3663
+        width: 444
+        height: 425
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 99, y: 213.25}
+        - {x: 40, y: 213.25}
+        - {x: -89, y: 120.25}
+        - {x: -111, y: 48.25}
+        - {x: -111, y: 21.25}
+        - {x: -76, y: 0.25}
+        - {x: 65, y: 0.25}
+        - {x: 111, y: 37.25}
+        - {x: 112, y: 60.25}
+        - {x: 112, y: 186.25}
+    - name: Jump_ani_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3229
+        width: 448
+        height: 422
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64, y: 212}
+        - {x: 61, y: 211}
+        - {x: -79, y: 103}
+        - {x: -111, y: 44}
+        - {x: -112, y: 40}
+        - {x: -112, y: 25}
+        - {x: -108, y: 23}
+        - {x: -101, y: 23}
+        - {x: -96, y: 25}
+        - {x: -78, y: 44}
+        - {x: -77, y: 49}
+        - {x: -62, y: 0}
+        - {x: 112, y: 0}
+        - {x: 112, y: 189}
+        - {x: 79, y: 212}
+    - name: Jump_ani_9
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 3229
+        width: 445
+        height: 424
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: 213}
+        - {x: -111.5, y: 63}
+        - {x: -111.5, y: 0}
+        - {x: 99.5, y: 0}
+        - {x: 111.5, y: 40}
+        - {x: 111.5, y: 213}
+    - name: Jump_ani_10
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 3224
+        width: 442
+        height: 429
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 111.5, y: 47.75}
+        - {x: 111.5, y: 197.75}
+        - {x: 82.5, y: 214.75}
+        - {x: 53.5, y: 214.75}
+        - {x: -91.5, y: 87.75}
+        - {x: -110.5, y: 35.75}
+        - {x: -110.5, y: 20.75}
+        - {x: -106.5, y: 13.75}
+        - {x: -63.5, y: -0.25}
+        - {x: -16.5, y: -0.25}
+        - {x: -15.5, y: 2.75}
+        - {x: -12.5, y: 7.75}
+        - {x: 7.5, y: -0.25}
+        - {x: 92.5, y: -0.25}
+    - name: Jump_ani_11
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 3228
+        width: 440
+        height: 425
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61, y: 212.75}
+        - {x: -102, y: 91.75}
+        - {x: -110, y: 51.75}
+        - {x: -110, y: -0.25}
+        - {x: 103, y: -0.25}
+        - {x: 111, y: 83.75}
+        - {x: 111, y: 180.75}
+        - {x: 77, y: 212.75}
+    - name: Jump_ani_12
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 3224
+        width: 438
+        height: 427
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 213.75}
+        - {x: -109.5, y: 129.75}
+        - {x: -109.5, y: 0.75}
+        - {x: -103.5, y: -0.25}
+        - {x: 92.5, y: -0.25}
+        - {x: 110.5, y: 45.75}
+        - {x: 110.5, y: 213.75}
+    - name: Jump_ani_13
+      rect:
+        serializedVersion: 2
+        x: 2289
+        y: 3224
+        width: 442
+        height: 429
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.5, y: 214.75}
+        - {x: -72.5, y: 105.75}
+        - {x: -110.5, y: 49.75}
+        - {x: -110.5, y: -0.25}
+        - {x: 105.5, y: -0.25}
+        - {x: 111.5, y: 67.75}
+        - {x: 111.5, y: 214.75}
+    - name: Jump_ani_14
+      rect:
+        serializedVersion: 2
+        x: 2747
+        y: 3229
+        width: 445
+        height: 427
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 98, y: 74.25}
+        - {x: 112, y: 147.25}
+        - {x: 112, y: 179.25}
+        - {x: 90, y: 214.25}
+        - {x: 51, y: 214.25}
+        - {x: -76, y: 99.25}
+        - {x: -111, y: 42.25}
+        - {x: -111, y: 26.25}
+        - {x: -96, y: 22.25}
+        - {x: -78, y: 40.25}
+        - {x: -64, y: 3.25}
+        - {x: -50, y: 0.25}
+        - {x: -27, y: 0.25}
+        - {x: -24, y: 15.25}
+        - {x: 91, y: 19.25}
+        - {x: 98, y: 26.25}
+    - name: Jump_ani_15
+      rect:
+        serializedVersion: 2
+        x: 3209
+        y: 3229
+        width: 444
+        height: 427
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63, y: 214.25}
+        - {x: 44, y: 198.25}
+        - {x: -111, y: 86.25}
+        - {x: -111, y: 0.25}
+        - {x: 112, y: 0.25}
+        - {x: 112, y: 205.25}
+        - {x: 96, y: 214.25}
+    - name: Jump_ani_16
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2791
+        width: 463
+        height: 424
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 213}
+        - {x: -115.5, y: 64}
+        - {x: -115.5, y: 34}
+        - {x: -99.5, y: 34}
+        - {x: -78.5, y: 55}
+        - {x: -75.5, y: 16}
+        - {x: -66.5, y: 0}
+        - {x: 20.5, y: 0}
+        - {x: 111.5, y: 24}
+        - {x: 116.5, y: 31}
+        - {x: 116.5, y: 187}
+        - {x: 108.5, y: 213}
+    - name: Jump_ani_17
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 2793
+        width: 486
+        height: 422
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 122.5, y: 31}
+        - {x: 122.5, y: 121}
+        - {x: 113.5, y: 164}
+        - {x: 83.5, y: 203}
+        - {x: 75.5, y: 212}
+        - {x: 34.5, y: 212}
+        - {x: -121.5, y: 68}
+        - {x: -121.5, y: 40}
+        - {x: -108.5, y: 35}
+        - {x: -85.5, y: 58}
+        - {x: -85.5, y: 17}
+        - {x: -79.5, y: 3}
+        - {x: -68.5, y: 0}
+        - {x: -56.5, y: 0}
+        - {x: -51.5, y: 7}
+        - {x: -52.5, y: 14}
+        - {x: 96.5, y: 26}
+    - name: Jump_ani_18
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 2795
+        width: 513
+        height: 422
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 93, y: 212}
+        - {x: 38, y: 212}
+        - {x: -89, y: 115}
+        - {x: -128, y: 60}
+        - {x: -128, y: 42}
+        - {x: -116, y: 42}
+        - {x: -103, y: 48}
+        - {x: -100, y: 7}
+        - {x: -82, y: 0}
+        - {x: 46, y: 0}
+        - {x: 95, y: 2}
+        - {x: 128, y: 35}
+        - {x: 128, y: 157}
+    - name: Jump_ani_19
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 2807
+        width: 506
+        height: 408
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: 205}
+        - {x: -126.5, y: 62}
+        - {x: -126.5, y: 18}
+        - {x: -107.5, y: 0}
+        - {x: 81.5, y: 0}
+        - {x: 127.5, y: 16}
+        - {x: 127.5, y: 161}
+        - {x: 96.5, y: 205}
+    - name: Jump_ani_20
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 2821
+        width: 505
+        height: 396
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 108, y: 185}
+        - {x: 86, y: 199}
+        - {x: 61, y: 199}
+        - {x: 51, y: 174}
+        - {x: -73, y: 119}
+        - {x: -126, y: 69}
+        - {x: -126, y: 52}
+        - {x: -114, y: 48}
+        - {x: -93, y: 63}
+        - {x: -95, y: 7}
+        - {x: -88, y: 0}
+        - {x: 8, y: 0}
+        - {x: 127, y: 29}
+        - {x: 127, y: 78}
+        - {x: 118, y: 156}
+    - name: Jump_ani_21
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 2832
+        width: 499
+        height: 383
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -125, y: 68.75}
+        - {x: -125, y: 51.75}
+        - {x: -119, y: 48.75}
+        - {x: -88, y: 66.75}
+        - {x: -90, y: 7.75}
+        - {x: -84, y: -0.25}
+        - {x: 64, y: -0.25}
+        - {x: 125, y: 7.75}
+        - {x: 125, y: 140.75}
+        - {x: 124, y: 144.75}
+        - {x: 105, y: 191.75}
+        - {x: 44, y: 191.75}
+        - {x: -92, y: 132.75}
+    - name: Jump_ani_22
+      rect:
+        serializedVersion: 2
+        x: 3031
+        y: 2845
+        width: 502
+        height: 368
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 126.5, y: 24}
+        - {x: 126.5, y: 185}
+        - {x: 6.5, y: 185}
+        - {x: -73.5, y: 136}
+        - {x: -125.5, y: 97}
+        - {x: -125.5, y: 0}
+        - {x: -58.5, y: 0}
+        - {x: -54.5, y: 7}
+        - {x: 120.5, y: 11}
+        - {x: 124.5, y: 18}
+    - name: Jump_ani_23
+      rect:
+        serializedVersion: 2
+        x: 3557
+        y: 2856
+        width: 512
+        height: 355
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 129, y: 160.75}
+        - {x: 118, y: 177.75}
+        - {x: 50, y: 177.75}
+        - {x: -101, y: 124.75}
+        - {x: -128, y: 76.75}
+        - {x: -128, y: 62.75}
+        - {x: -114, y: 57.75}
+        - {x: -98, y: 71.75}
+        - {x: -85, y: 85.75}
+        - {x: -92, y: 5.75}
+        - {x: -80, y: -0.25}
+        - {x: 44, y: -0.25}
+        - {x: 117, y: 3.75}
+        - {x: 120, y: 26.75}
+        - {x: 129, y: 59.75}
+    - name: Jump_ani_24
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 2421
+        width: 512
+        height: 356
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 179}
+        - {x: -128, y: 105}
+        - {x: -128, y: 0}
+        - {x: 124, y: 0}
+        - {x: 129, y: 19}
+        - {x: 129, y: 157}
+        - {x: 108, y: 179}
+    - name: Jump_ani_25
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 2421
+        width: 512
+        height: 352
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 66, y: 177}
+        - {x: -81, y: 125}
+        - {x: -128, y: 78}
+        - {x: -128, y: 0}
+        - {x: 129, y: 0}
+        - {x: 129, y: 151}
+        - {x: 123, y: 177}
+    - name: Jump_ani_26
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 2420
+        width: 512
+        height: 353
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 121, y: 176.75}
+        - {x: 57, y: 176.75}
+        - {x: -72, y: 124.75}
+        - {x: -127, y: 75.75}
+        - {x: -128, y: 72.75}
+        - {x: -128, y: 59.75}
+        - {x: -119, y: 55.75}
+        - {x: -101, y: 64.75}
+        - {x: -92, y: 70.75}
+        - {x: -112, y: -0.25}
+        - {x: 111, y: -0.25}
+        - {x: 116, y: 10.75}
+        - {x: 129, y: 78.75}
+        - {x: 129, y: 153.75}
+    - name: Jump_ani_27
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 2416
+        width: 517
+        height: 355
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 129.5, y: 93.75}
+        - {x: 129.5, y: 143.75}
+        - {x: 109.5, y: 176.75}
+        - {x: 108.5, y: 177.75}
+        - {x: 62.5, y: 177.75}
+        - {x: -83.5, y: 147.75}
+        - {x: -129.5, y: 79.75}
+        - {x: -129.5, y: 20.75}
+        - {x: -80.5, y: 0.75}
+        - {x: -73.5, y: -0.25}
+        - {x: -28.5, y: -0.25}
+        - {x: -19.5, y: 9.75}
+        - {x: 68.5, y: 0.75}
+        - {x: 96.5, y: 4.75}
+        - {x: 111.5, y: 9.75}
+    - name: Jump_ani_28
+      rect:
+        serializedVersion: 2
+        x: 2157
+        y: 2421
+        width: 515
+        height: 350
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54.5, y: 176}
+        - {x: -84.5, y: 143}
+        - {x: -128.5, y: 76}
+        - {x: -128.5, y: 59}
+        - {x: -117.5, y: 53}
+        - {x: -91.5, y: 67}
+        - {x: -81.5, y: 79}
+        - {x: -85.5, y: 0}
+        - {x: 129.5, y: 0}
+        - {x: 129.5, y: 176}
+    - name: Jump_ani_29
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 2419
+        width: 514
+        height: 350
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61.5, y: 176}
+        - {x: -59.5, y: 142}
+        - {x: -128.5, y: 83}
+        - {x: -128.5, y: 32}
+        - {x: -97.5, y: 0}
+        - {x: 103.5, y: 0}
+        - {x: 129.5, y: 81}
+        - {x: 129.5, y: 162}
+        - {x: 119.5, y: 176}
+    - name: Jump_ani_30
+      rect:
+        serializedVersion: 2
+        x: 3232
+        y: 2407
+        width: 509
+        height: 364
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 127.5, y: 179}
+        - {x: 124.5, y: 183}
+        - {x: 62.5, y: 183}
+        - {x: 19.5, y: 167}
+        - {x: -127.5, y: 95}
+        - {x: -127.5, y: 55}
+        - {x: -113.5, y: 52}
+        - {x: -92.5, y: 64}
+        - {x: -85.5, y: 71}
+        - {x: -61.5, y: 1}
+        - {x: -55.5, y: 0}
+        - {x: -7.5, y: 0}
+        - {x: -3.5, y: 15}
+        - {x: 42.5, y: 0}
+        - {x: 88.5, y: 0}
+        - {x: 92.5, y: 8}
+        - {x: 93.5, y: 15}
+        - {x: 127.5, y: 84}
+    - name: Jump_ani_31
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 2013
+        width: 498
+        height: 379
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 90.5, y: 11.25}
+        - {x: 86.5, y: 18.25}
+        - {x: 125.5, y: 126.25}
+        - {x: 125.5, y: 177.25}
+        - {x: 122.5, y: 190.25}
+        - {x: 38.5, y: 190.25}
+        - {x: -58.5, y: 152.25}
+        - {x: -124.5, y: 85.25}
+        - {x: -124.5, y: 53.25}
+        - {x: -54.5, y: 1.25}
+        - {x: -49.5, y: 0.25}
+        - {x: -5.5, y: 0.25}
+        - {x: -0.5, y: 16.25}
+        - {x: 51.5, y: 0.25}
+        - {x: 91.5, y: 0.25}
+    - name: Jump_ani_32
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1999
+        width: 493
+        height: 393
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40.5, y: 197.25}
+        - {x: -61.5, y: 158.25}
+        - {x: -123.5, y: 106.25}
+        - {x: -123.5, y: 23.25}
+        - {x: -115.5, y: 0.25}
+        - {x: 123.5, y: 0.25}
+        - {x: 123.5, y: 197.25}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
