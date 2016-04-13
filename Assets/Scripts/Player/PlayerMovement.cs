@@ -60,6 +60,9 @@ public class PlayerMovement : MonoBehaviour {
         float ver = xinput.LeftStickPos.y;
         float speed = maxWalkSpeed / speedDivider;
 
+        ca.TouchingGround = touchingGround;
+        ca.Walking = hor != 0;
+
         hor *= speed;
 
         if (ver != 0) {
@@ -82,6 +85,7 @@ public class PlayerMovement : MonoBehaviour {
         if (xinput.AButton) {
             if (touchingGround) {
                 rb.AddForce(transform.up * (jumpHeight / jumpDivider), ForceMode2D.Impulse);
+                ca.Jump();
             }
         }
 

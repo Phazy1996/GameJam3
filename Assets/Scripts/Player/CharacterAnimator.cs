@@ -7,11 +7,17 @@ public class CharacterAnimator : MonoBehaviour {
     bool walking, touchingGround = false;
 
     public bool Walking {
-        set { walking = value; }
+        set { 
+            walking = value;
+            animator.SetBool("walking", walking);
+        }
     }
 
     public bool TouchingGround {
-        set { touchingGround = value; }
+        set { 
+            touchingGround = value;
+            animator.SetBool("touchingGround", touchingGround);
+        }
     }
 
     public void Jump() {
