@@ -2,14 +2,15 @@
 using System.Collections;
 
 public class WinTrigger : MonoBehaviour {
+    void OnTriggerEnter2D(Collider2D other) {
+        string team = other.transform.parent.name;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+        team.ToLower();
+
+        if (team == "team1") {
+            // win
+        } else if (team == "team2") {
+            // more win
+        }
+    }
 }

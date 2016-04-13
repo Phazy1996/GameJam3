@@ -10,6 +10,14 @@ public class LevelManager : MonoBehaviour {
     GameObject CreditsUI;
     [SerializeField]
     GameObject EndScreenUI;
+    [SerializeField]
+    GameObject PlayButton;
+    [SerializeField]
+    GameObject CreditsButton;
+    [SerializeField]
+    GameObject QuitButton;
+    [SerializeField]
+    GameObject GameTitle;
 
     bool PauzeEnabled = false;
 
@@ -51,10 +59,18 @@ public class LevelManager : MonoBehaviour {
         if(value)
         {
             CreditsUI.SetActive(true);
+            PlayButton.SetActive(false);
+            CreditsButton.SetActive(false);
+            QuitButton.SetActive(false);
+            GameTitle.SetActive(false);
         }
         else
         {
             CreditsUI.SetActive(false);
+            PlayButton.SetActive(true);
+            CreditsButton.SetActive(true);
+            QuitButton.SetActive(true);
+            GameTitle.SetActive(true);
         }
     }
 	// quit game
@@ -66,6 +82,7 @@ public class LevelManager : MonoBehaviour {
     // Restart the game ( load scene 1 )
     public void RestartGame()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene(3);
     }
 
@@ -80,17 +97,20 @@ public class LevelManager : MonoBehaviour {
     }
 	public void PauzeScreenEnabled()
 	{
-        
-        EndScreenUI.SetActive(true);
-        //Time.timeScale = 0.01f;
-        PauzeEnabled = true;
+        if(Application.loadedLevel == 3)
+        {
+            EndScreenUI.SetActive(true);
+            Time.timeScale = 0;
+            PauzeEnabled = true;
+        }
+
         
 	}
 
     public void PauzeScreenDisabled()
     {
         EndScreenUI.SetActive(false);
-        //Time.timeScale = 1;
+        Time.timeScale = 1;
         PauzeEnabled = false;
     }
 }

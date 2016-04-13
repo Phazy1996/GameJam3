@@ -20,7 +20,7 @@ public class PlayerMovement : MonoBehaviour {
     [SerializeField, Tooltip("Leave this be unless you know what you're doing with it.")]
     float speedDivider, jumpDivider = 30;
 
-    [SerializeField]
+    [SerializeField]    
     LayerMask ground;
 
     bool touchingGround = false;
@@ -31,6 +31,12 @@ public class PlayerMovement : MonoBehaviour {
         if (other.gameObject.layer == 9) {
             touchingGround = true;
             xinput.BurstVib(0.2f, 0.4f * yVel);
+        }
+    }
+
+    void OnTriggerStay2D(Collider2D other) {
+        if (other.gameObject.layer == 9) {
+            touchingGround = true;
         }
     }
 
