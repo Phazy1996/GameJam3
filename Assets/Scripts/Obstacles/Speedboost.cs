@@ -6,23 +6,25 @@ public class Speedboost : MonoBehaviour {
 
     // checking if player and the speedboost obj collide with each other, if true then change speed to higher value
 
-    [SerializeField]
+   // [SerializeField]
     PlayerMovement _player;
+
 
     void Start()
     {
         _player = GetComponent<PlayerMovement>();
     }
-    void OnCollisionEnter(Collision col)
+    void OnCollisionEnter2D(Collision2D col)
     {
-        if(col.gameObject.name == "Player")
+        if (col.gameObject.tag == "SpeedBoost")
         {
-            Debug.Log("SpeedBoost.");
-            _player.MaxWalkSpeed = _player.MaxWalkSpeed * 2;
+            Debug.Log("SpeedBoost");
+            print(_player.MaxWalkSpeed);
+            _player.MaxWalkSpeed = 10f;
         }
     }
 
-    void OnCollisionExit(Collision col)
+    void OnCollisionExit2D(Collision2D col)
     {
         Debug.Log("Set Speed To Defaul Values");
         _player.MaxWalkSpeed = 5;
