@@ -5,6 +5,7 @@ public class PlayerMovement : MonoBehaviour {
 
     XInput xinput;
     Rigidbody2D rb;
+    CharacterAnimator ca;
 
     [SerializeField]
     float maxWalkSpeed, jumpHeight = 5;
@@ -27,6 +28,12 @@ public class PlayerMovement : MonoBehaviour {
 
     float yVel = 0;
 
+    void Start() {
+        xinput = GetComponent<XInput>();
+        rb = GetComponent<Rigidbody2D>();
+        ca = GetComponent<CharacterAnimator>();
+    }
+
     void OnTriggerEnter2D(Collider2D other) {
         if (other.gameObject.layer == 9) {
             touchingGround = true;
@@ -46,11 +53,6 @@ public class PlayerMovement : MonoBehaviour {
         }
     }
 
-    void Start() {
-        xinput = GetComponent<XInput>();
-        rb = GetComponent<Rigidbody2D>();
-    }
-
     void FixedUpdate() {
         yVel = rb.velocity.y;
 
@@ -60,7 +62,7 @@ public class PlayerMovement : MonoBehaviour {
 
         hor *= speed;
 
-        if (ver < 0) {
+        if (ver != 0) {
             if (!touchingGround) {
                 rb.velocity = new Vector3(rb.velocity.x, 0);
                 ver = -speed * 2;
@@ -81,6 +83,12 @@ public class PlayerMovement : MonoBehaviour {
             if (touchingGround) {
                 rb.AddForce(transform.up * (jumpHeight / jumpDivider), ForceMode2D.Impulse);
             }
+        }
+
+        if (hor != 0) {
+            ca.Walking = true;
+        } else {
+            ca.Walking = false;
         }
     }
 }
